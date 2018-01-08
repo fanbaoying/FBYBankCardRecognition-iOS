@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  FBYBankCardRecognition-iOS
 //
-//  Created by 范保莹 on 2018/1/2.
+//  Created by fby on 2018/1/2.
 //  Copyright © 2018年 FBYIDCardRecognition-iOS. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    ViewController *vc = [[ViewController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

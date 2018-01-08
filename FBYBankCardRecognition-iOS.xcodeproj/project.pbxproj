@@ -15,6 +15,21 @@
 		4582D8451FFB324F00B85FC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8441FFB324F00B85FC5 /* main.m */; };
 		4582D84F1FFB324F00B85FC5 /* FBYBankCardRecognition_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D84E1FFB324F00B85FC5 /* FBYBankCardRecognition_iOSTests.m */; };
 		4582D85A1FFB324F00B85FC5 /* FBYBankCardRecognition_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8591FFB324F00B85FC5 /* FBYBankCardRecognition_iOSUITests.m */; };
+		4582D8B41FFDC29600B85FC5 /* BankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8B31FFDC29600B85FC5 /* BankCardSearch.m */; };
+		4582D8B71FFDC34F00B85FC5 /* FBYBankCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8B61FFDC34F00B85FC5 /* FBYBankCardView.m */; };
+		4582D8BA1FFDC4D800B85FC5 /* FBYBankCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8B91FFDC4D800B85FC5 /* FBYBankCardViewController.m */; };
+		4582D8C01FFDCB4A00B85FC5 /* FBYScanBankCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8BF1FFDCB4A00B85FC5 /* FBYScanBankCard.m */; };
+		4582D8C31FFDCE2C00B85FC5 /* FBYScanBankCardBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8C21FFDCE2C00B85FC5 /* FBYScanBankCardBase.m */; };
+		4582D8C61FFDCF9400B85FC5 /* FBYBankCardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8C51FFDCF9400B85FC5 /* FBYBankCardModel.m */; };
+		4582D8C91FFDD0B000B85FC5 /* FBYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8C81FFDD0B000B85FC5 /* FBYBaseViewController.m */; };
+		4582D8D31FFDD84900B85FC5 /* FBYDesign.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8D21FFDD84900B85FC5 /* FBYDesign.m */; };
+		4582D8E31FFDF80E00B85FC5 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8E11FFDF80D00B85FC5 /* UIImage+Extend.m */; };
+		4582D8EA1FFDF81500B85FC5 /* libbexbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582D8E91FFDF81500B85FC5 /* libbexbankcard.a */; };
+		4582D8F81FFDFFB000B85FC5 /* libexbankcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582D8F71FFDFFB000B85FC5 /* libexbankcardios.a */; };
+		4582D8FE1FFE049A00B85FC5 /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8FD1FFE049A00B85FC5 /* UIAlertController+Extend.m */; };
+		4582D9041FFE0B4200B85FC5 /* FBYBankCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D9031FFE0B4200B85FC5 /* FBYBankCardDetailViewController.m */; };
+		4582D9061FFE133400B85FC5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4582D9051FFE133400B85FC5 /* icon.png */; };
+		804A9263F66FA2DC442A9D3D /* Pods_FBYBankCardRecognition_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33B7D80F4A0528DB7A3BCDA /* Pods_FBYBankCardRecognition_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +66,38 @@
 		4582D8551FFB324F00B85FC5 /* FBYBankCardRecognition-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FBYBankCardRecognition-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4582D8591FFB324F00B85FC5 /* FBYBankCardRecognition_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYBankCardRecognition_iOSUITests.m; sourceTree = "<group>"; };
 		4582D85B1FFB324F00B85FC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4582D8B21FFDC29600B85FC5 /* BankCardSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BankCardSearch.h; sourceTree = "<group>"; };
+		4582D8B31FFDC29600B85FC5 /* BankCardSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BankCardSearch.m; sourceTree = "<group>"; };
+		4582D8B51FFDC34F00B85FC5 /* FBYBankCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYBankCardView.h; sourceTree = "<group>"; };
+		4582D8B61FFDC34F00B85FC5 /* FBYBankCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYBankCardView.m; sourceTree = "<group>"; };
+		4582D8B81FFDC4D800B85FC5 /* FBYBankCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYBankCardViewController.h; sourceTree = "<group>"; };
+		4582D8B91FFDC4D800B85FC5 /* FBYBankCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYBankCardViewController.m; sourceTree = "<group>"; };
+		4582D8BE1FFDCB4A00B85FC5 /* FBYScanBankCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYScanBankCard.h; sourceTree = "<group>"; };
+		4582D8BF1FFDCB4A00B85FC5 /* FBYScanBankCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYScanBankCard.m; sourceTree = "<group>"; };
+		4582D8C11FFDCE2C00B85FC5 /* FBYScanBankCardBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYScanBankCardBase.h; sourceTree = "<group>"; };
+		4582D8C21FFDCE2C00B85FC5 /* FBYScanBankCardBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYScanBankCardBase.m; sourceTree = "<group>"; };
+		4582D8C41FFDCF9400B85FC5 /* FBYBankCardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYBankCardModel.h; sourceTree = "<group>"; };
+		4582D8C51FFDCF9400B85FC5 /* FBYBankCardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYBankCardModel.m; sourceTree = "<group>"; };
+		4582D8C71FFDD0B000B85FC5 /* FBYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYBaseViewController.h; sourceTree = "<group>"; };
+		4582D8C81FFDD0B000B85FC5 /* FBYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYBaseViewController.m; sourceTree = "<group>"; };
+		4582D8D11FFDD84900B85FC5 /* FBYDesign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYDesign.h; sourceTree = "<group>"; };
+		4582D8D21FFDD84900B85FC5 /* FBYDesign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYDesign.m; sourceTree = "<group>"; };
+		4582D8E11FFDF80D00B85FC5 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		4582D8E21FFDF80E00B85FC5 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		4582D8E51FFDF81500B85FC5 /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		4582D8E61FFDF81500B85FC5 /* exbankcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		4582D8E81FFDF81500B85FC5 /* exbankcardcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		4582D8E91FFDF81500B85FC5 /* libbexbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbexbankcard.a; sourceTree = "<group>"; };
+		4582D8EB1FFDFAAE00B85FC5 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		4582D8F71FFDFFB000B85FC5 /* libexbankcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexbankcardios.a; sourceTree = "<group>"; };
+		4582D8FC1FFE049A00B85FC5 /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
+		4582D8FD1FFE049A00B85FC5 /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
+		4582D9021FFE0B4200B85FC5 /* FBYBankCardDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYBankCardDetailViewController.h; sourceTree = "<group>"; };
+		4582D9031FFE0B4200B85FC5 /* FBYBankCardDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBYBankCardDetailViewController.m; sourceTree = "<group>"; };
+		4582D9051FFE133400B85FC5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		7D3F2C502D9BC7A954B29E86 /* Pods-FBYBankCardRecognition-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBYBankCardRecognition-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBYBankCardRecognition-iOS/Pods-FBYBankCardRecognition-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B90D99CE140352D3B8BCADE1 /* Pods-FBYBankCardRecognition-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBYBankCardRecognition-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBYBankCardRecognition-iOS/Pods-FBYBankCardRecognition-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C33B7D80F4A0528DB7A3BCDA /* Pods_FBYBankCardRecognition_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBYBankCardRecognition_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +105,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804A9263F66FA2DC442A9D3D /* Pods_FBYBankCardRecognition_iOS.framework in Frameworks */,
+				4582D8EA1FFDF81500B85FC5 /* libbexbankcard.a in Frameworks */,
+				4582D8F81FFDFFB000B85FC5 /* libexbankcardios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34432A880074AFF2F0E8DDA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B90D99CE140352D3B8BCADE1 /* Pods-FBYBankCardRecognition-iOS.debug.xcconfig */,
+				7D3F2C502D9BC7A954B29E86 /* Pods-FBYBankCardRecognition-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4582D8291FFB324E00B85FC5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +144,8 @@
 				4582D84D1FFB324F00B85FC5 /* FBYBankCardRecognition-iOSTests */,
 				4582D8581FFB324F00B85FC5 /* FBYBankCardRecognition-iOSUITests */,
 				4582D8331FFB324F00B85FC5 /* Products */,
+				34432A880074AFF2F0E8DDA7 /* Pods */,
+				EC66BE0C78B373316431A1BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +162,9 @@
 		4582D8341FFB324F00B85FC5 /* FBYBankCardRecognition-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				4582D8811FFB36A300B85FC5 /* iconImg */,
+				4582D8E41FFDF81500B85FC5 /* bank_card */,
+				4582D8931FFC877800B85FC5 /* BankData */,
 				4582D8351FFB324F00B85FC5 /* AppDelegate.h */,
 				4582D8361FFB324F00B85FC5 /* AppDelegate.m */,
 				4582D8381FFB324F00B85FC5 /* ViewController.h */,
@@ -132,6 +196,72 @@
 			path = "FBYBankCardRecognition-iOSUITests";
 			sourceTree = "<group>";
 		};
+		4582D8811FFB36A300B85FC5 /* iconImg */ = {
+			isa = PBXGroup;
+			children = (
+				4582D9051FFE133400B85FC5 /* icon.png */,
+			);
+			path = iconImg;
+			sourceTree = "<group>";
+		};
+		4582D8931FFC877800B85FC5 /* BankData */ = {
+			isa = PBXGroup;
+			children = (
+				4582D8C71FFDD0B000B85FC5 /* FBYBaseViewController.h */,
+				4582D8C81FFDD0B000B85FC5 /* FBYBaseViewController.m */,
+				4582D8C41FFDCF9400B85FC5 /* FBYBankCardModel.h */,
+				4582D8C51FFDCF9400B85FC5 /* FBYBankCardModel.m */,
+				4582D8BE1FFDCB4A00B85FC5 /* FBYScanBankCard.h */,
+				4582D8BF1FFDCB4A00B85FC5 /* FBYScanBankCard.m */,
+				4582D8C11FFDCE2C00B85FC5 /* FBYScanBankCardBase.h */,
+				4582D8C21FFDCE2C00B85FC5 /* FBYScanBankCardBase.m */,
+				4582D8B21FFDC29600B85FC5 /* BankCardSearch.h */,
+				4582D8B31FFDC29600B85FC5 /* BankCardSearch.m */,
+				4582D8B51FFDC34F00B85FC5 /* FBYBankCardView.h */,
+				4582D8B61FFDC34F00B85FC5 /* FBYBankCardView.m */,
+				4582D8B81FFDC4D800B85FC5 /* FBYBankCardViewController.h */,
+				4582D8B91FFDC4D800B85FC5 /* FBYBankCardViewController.m */,
+				4582D9021FFE0B4200B85FC5 /* FBYBankCardDetailViewController.h */,
+				4582D9031FFE0B4200B85FC5 /* FBYBankCardDetailViewController.m */,
+				4582D8D11FFDD84900B85FC5 /* FBYDesign.h */,
+				4582D8D21FFDD84900B85FC5 /* FBYDesign.m */,
+				4582D8E21FFDF80E00B85FC5 /* UIImage+Extend.h */,
+				4582D8E11FFDF80D00B85FC5 /* UIImage+Extend.m */,
+				4582D8FC1FFE049A00B85FC5 /* UIAlertController+Extend.h */,
+				4582D8FD1FFE049A00B85FC5 /* UIAlertController+Extend.m */,
+			);
+			path = BankData;
+			sourceTree = "<group>";
+		};
+		4582D8E41FFDF81500B85FC5 /* bank_card */ = {
+			isa = PBXGroup;
+			children = (
+				4582D8E51FFDF81500B85FC5 /* BankCard.h */,
+				4582D8E61FFDF81500B85FC5 /* exbankcard.h */,
+				4582D8E71FFDF81500B85FC5 /* exbankcardcore */,
+			);
+			path = bank_card;
+			sourceTree = "<group>";
+		};
+		4582D8E71FFDF81500B85FC5 /* exbankcardcore */ = {
+			isa = PBXGroup;
+			children = (
+				4582D8F71FFDFFB000B85FC5 /* libexbankcardios.a */,
+				4582D8E81FFDF81500B85FC5 /* exbankcardcore.h */,
+				4582D8E91FFDF81500B85FC5 /* libbexbankcard.a */,
+			);
+			path = exbankcardcore;
+			sourceTree = "<group>";
+		};
+		EC66BE0C78B373316431A1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4582D8EB1FFDFAAE00B85FC5 /* libstdc++.tbd */,
+				C33B7D80F4A0528DB7A3BCDA /* Pods_FBYBankCardRecognition_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4582D85E1FFB324F00B85FC5 /* Build configuration list for PBXNativeTarget "FBYBankCardRecognition-iOS" */;
 			buildPhases = (
+				60DF10E10E5B641828C186AE /* [CP] Check Pods Manifest.lock */,
 				4582D82E1FFB324E00B85FC5 /* Sources */,
 				4582D82F1FFB324E00B85FC5 /* Frameworks */,
 				4582D8301FFB324E00B85FC5 /* Resources */,
+				06CE74599EB482C2A8DD4F65 /* [CP] Embed Pods Frameworks */,
+				9A11B1D474369A7B35C16BBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +371,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4582D9061FFE133400B85FC5 /* icon.png in Resources */,
 				4582D8421FFB324F00B85FC5 /* LaunchScreen.storyboard in Resources */,
 				4582D83F1FFB324F00B85FC5 /* Assets.xcassets in Resources */,
 				4582D83D1FFB324F00B85FC5 /* Main.storyboard in Resources */,
@@ -260,14 +394,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06CE74599EB482C2A8DD4F65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBYBankCardRecognition-iOS/Pods-FBYBankCardRecognition-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60DF10E10E5B641828C186AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A11B1D474369A7B35C16BBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBYBankCardRecognition-iOS/Pods-FBYBankCardRecognition-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4582D82E1FFB324E00B85FC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4582D8BA1FFDC4D800B85FC5 /* FBYBankCardViewController.m in Sources */,
 				4582D83A1FFB324F00B85FC5 /* ViewController.m in Sources */,
+				4582D8E31FFDF80E00B85FC5 /* UIImage+Extend.m in Sources */,
+				4582D8C31FFDCE2C00B85FC5 /* FBYScanBankCardBase.m in Sources */,
+				4582D8FE1FFE049A00B85FC5 /* UIAlertController+Extend.m in Sources */,
+				4582D8C61FFDCF9400B85FC5 /* FBYBankCardModel.m in Sources */,
+				4582D9041FFE0B4200B85FC5 /* FBYBankCardDetailViewController.m in Sources */,
 				4582D8451FFB324F00B85FC5 /* main.m in Sources */,
 				4582D8371FFB324F00B85FC5 /* AppDelegate.m in Sources */,
+				4582D8B41FFDC29600B85FC5 /* BankCardSearch.m in Sources */,
+				4582D8C01FFDCB4A00B85FC5 /* FBYScanBankCard.m in Sources */,
+				4582D8D31FFDD84900B85FC5 /* FBYDesign.m in Sources */,
+				4582D8B71FFDC34F00B85FC5 /* FBYBankCardView.m in Sources */,
+				4582D8C91FFDD0B000B85FC5 /* FBYBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,12 +621,23 @@
 		};
 		4582D85F1FFB324F00B85FC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90D99CE140352D3B8BCADE1 /* Pods-FBYBankCardRecognition-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = "FBYBankCardRecognition-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/libexidcard",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/FBYBankData/bank_card/exbankcardcore",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/bank_card/exbankcardcore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYBankCardRecognition-iOS.a.FBYBankCardRecognition-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,12 +646,23 @@
 		};
 		4582D8601FFB324F00B85FC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D3F2C502D9BC7A954B29E86 /* Pods-FBYBankCardRecognition-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
 				INFOPLIST_FILE = "FBYBankCardRecognition-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/libexidcard",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/bank_io/exbankcardcore",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/FBYBankData/bank_card/exbankcardcore",
+					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/bank_card/exbankcardcore",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYBankCardRecognition-iOS.a.FBYBankCardRecognition-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
