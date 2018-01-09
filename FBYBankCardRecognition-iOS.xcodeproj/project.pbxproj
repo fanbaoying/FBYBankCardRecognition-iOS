@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4535CBD52004BA2200B3C0D0 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 4535CBD42004BA2200B3C0D0 /* zocr0.lib */; };
 		4582D8371FFB324F00B85FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8361FFB324F00B85FC5 /* AppDelegate.m */; };
 		4582D83A1FFB324F00B85FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8391FFB324F00B85FC5 /* ViewController.m */; };
 		4582D83D1FFB324F00B85FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4582D83B1FFB324F00B85FC5 /* Main.storyboard */; };
@@ -50,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4535CBD42004BA2200B3C0D0 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		4535CBD62004BA2C00B3C0D0 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		4535CBD72004BA3800B3C0D0 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
 		4582D8321FFB324F00B85FC5 /* FBYBankCardRecognition-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FBYBankCardRecognition-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4582D8351FFB324F00B85FC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4582D8361FFB324F00B85FC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -236,8 +240,11 @@
 		4582D8E41FFDF81500B85FC5 /* bank_card */ = {
 			isa = PBXGroup;
 			children = (
+				4535CBD72004BA3800B3C0D0 /* excards.h */,
+				4535CBD62004BA2C00B3C0D0 /* commondef.h */,
 				4582D8E51FFDF81500B85FC5 /* BankCard.h */,
 				4582D8E61FFDF81500B85FC5 /* exbankcard.h */,
+				4582D8E81FFDF81500B85FC5 /* exbankcardcore.h */,
 				4582D8E71FFDF81500B85FC5 /* exbankcardcore */,
 			);
 			path = bank_card;
@@ -246,8 +253,8 @@
 		4582D8E71FFDF81500B85FC5 /* exbankcardcore */ = {
 			isa = PBXGroup;
 			children = (
+				4535CBD42004BA2200B3C0D0 /* zocr0.lib */,
 				4582D8F71FFDFFB000B85FC5 /* libexbankcardios.a */,
-				4582D8E81FFDF81500B85FC5 /* exbankcardcore.h */,
 				4582D8E91FFDF81500B85FC5 /* libbexbankcard.a */,
 			);
 			path = exbankcardcore;
@@ -374,6 +381,7 @@
 				4582D9061FFE133400B85FC5 /* icon.png in Resources */,
 				4582D8421FFB324F00B85FC5 /* LaunchScreen.storyboard in Resources */,
 				4582D83F1FFB324F00B85FC5 /* Assets.xcassets in Resources */,
+				4535CBD52004BA2200B3C0D0 /* zocr0.lib in Resources */,
 				4582D83D1FFB324F00B85FC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -628,6 +636,7 @@
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "FBYBankCardRecognition-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -638,9 +647,11 @@
 					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/FBYBankData/bank_card/exbankcardcore",
 					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/bank_card/exbankcardcore",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYBankCardRecognition-iOS.a.FBYBankCardRecognition-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Debug;
 		};
@@ -653,6 +664,7 @@
 				DEVELOPMENT_TEAM = 8ZQEMVF63J;
 				ENABLE_BITCODE = NO;
 				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "FBYBankCardRecognition-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -663,9 +675,11 @@
 					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/FBYBankData/bank_card/exbankcardcore",
 					"$(PROJECT_DIR)/FBYBankCardRecognition-iOS/bank_card/exbankcardcore",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FBYBankCardRecognition-iOS.a.FBYBankCardRecognition-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Release;
 		};

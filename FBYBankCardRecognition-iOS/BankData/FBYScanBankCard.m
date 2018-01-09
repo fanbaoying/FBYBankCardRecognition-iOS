@@ -7,6 +7,7 @@
 //
 
 #import "FBYScanBankCard.h"
+
 @interface FBYScanBankCard ()
 
 @end

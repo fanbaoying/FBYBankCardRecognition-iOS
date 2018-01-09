@@ -15,6 +15,7 @@
 #import "UIImage+Extend.h"
 #import "FBYBankCardModel.h"
 #import "exbankcard.h"
+#import "excards.h"
 
 
 typedef enum : NSUInteger {

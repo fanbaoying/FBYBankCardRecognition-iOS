@@ -34,8 +34,6 @@
 
 - (void)doSomethingWhenWillDisappear;
 
-- (void)parseIDCardImageBuffer:(CVImageBufferRef)imageBuffer;
-
 - (void)parseBankImageBuffer:(CVImageBufferRef)imageBuffer;
 
 //选择前置和后置
