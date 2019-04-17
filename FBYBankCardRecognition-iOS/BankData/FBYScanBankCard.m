@@ -138,6 +138,9 @@
 }
 
 - (void)parseBankImageBuffer:(CVImageBufferRef)imageBuffer {
+    #if TARGET_IPHONE_SIMULATOR
+    NSLog(@"识别库不支持模拟器，请真机运行");
+    #else
     size_t width_t= CVPixelBufferGetWidth(imageBuffer);
     size_t height_t = CVPixelBufferGetHeight(imageBuffer);
     CVPlanarPixelBufferInfo_YCbCrBiPlanar *planar = CVPixelBufferGetBaseAddress(imageBuffer);
@@ -191,6 +194,7 @@
     }
     CVPixelBufferUnlockBaseAddress(imageBuffer, 0);
     self.isInProcessing = NO;
+    #endif
 }
 
 //选择前置和后置
@@ -374,6 +378,9 @@ static const NSString *THCameraAdjustingExposureContext;
 
 static bool initFlag = NO;
 - (void)configIDScan {
+    #if TARGET_IPHONE_SIMULATOR
+    NSLog(@"识别库不支持模拟器，请真机运行");
+    #else
     if (!initFlag) {
         const char *thePath = [[[NSBundle mainBundle] resourcePath] UTF8String];
         int ret = EXCARDS_Init(thePath);
@@ -382,6 +389,7 @@ static bool initFlag = NO;
         }
         initFlag = YES;
     }
+    #endif
 }
 - (BOOL)configOutPutAtQue:(dispatch_queue_t)queue {
     [self.videoDataOutput setSampleBufferDelegate:self queue:queue];
