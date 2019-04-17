@@ -2,9 +2,10 @@
 //  UIAlertController+Extend.m
 //  IDCardRecognition
 //
-//  Created by zhongfeng1 on 2017/3/6.
-//  Copyright © 2017年 李中峰. All rights reserved.
+//  Created by fby on 2018/1/4.
+//  Copyright © 2018年 FBYIDCardRecognition-iOS. All rights reserved.
 //
+
 
 #import "UIAlertController+Extend.h"
 

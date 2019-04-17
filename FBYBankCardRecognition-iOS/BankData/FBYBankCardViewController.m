@@ -48,7 +48,12 @@
     [super viewDidLoad];
     
     self.title = @"银行卡扫描";
-    
+//#if TARGET_IPHONE_SIMULATOR
+//    return NO;
+//#else
+//    self.scanType = BankScanType;
+//    return [self configSession];
+//#endif
     [self.view insertSubview:self.FBYBankCardView atIndex:0];
     
     self.cameraManager.sessionPreset = AVCaptureSessionPreset1280x720;

@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4535CBD52004BA2200B3C0D0 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 4535CBD42004BA2200B3C0D0 /* zocr0.lib */; };
+		269D6D6F2260957700A5C23D /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 269D6D6C2260957700A5C23D /* zocr0.lib */; };
+		269D6D702260957700A5C23D /* libbexbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 269D6D6D2260957700A5C23D /* libbexbankcard.a */; };
+		269D6D712260957700A5C23D /* libexbankcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 269D6D6E2260957700A5C23D /* libexbankcardios.a */; };
 		4582D8371FFB324F00B85FC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8361FFB324F00B85FC5 /* AppDelegate.m */; };
 		4582D83A1FFB324F00B85FC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8391FFB324F00B85FC5 /* ViewController.m */; };
 		4582D83D1FFB324F00B85FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4582D83B1FFB324F00B85FC5 /* Main.storyboard */; };
@@ -25,8 +27,6 @@
 		4582D8C91FFDD0B000B85FC5 /* FBYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8C81FFDD0B000B85FC5 /* FBYBaseViewController.m */; };
 		4582D8D31FFDD84900B85FC5 /* FBYDesign.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8D21FFDD84900B85FC5 /* FBYDesign.m */; };
 		4582D8E31FFDF80E00B85FC5 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8E11FFDF80D00B85FC5 /* UIImage+Extend.m */; };
-		4582D8EA1FFDF81500B85FC5 /* libbexbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582D8E91FFDF81500B85FC5 /* libbexbankcard.a */; };
-		4582D8F81FFDFFB000B85FC5 /* libexbankcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4582D8F71FFDFFB000B85FC5 /* libexbankcardios.a */; };
 		4582D8FE1FFE049A00B85FC5 /* UIAlertController+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D8FD1FFE049A00B85FC5 /* UIAlertController+Extend.m */; };
 		4582D9041FFE0B4200B85FC5 /* FBYBankCardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4582D9031FFE0B4200B85FC5 /* FBYBankCardDetailViewController.m */; };
 		4582D9061FFE133400B85FC5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4582D9051FFE133400B85FC5 /* icon.png */; };
@@ -51,7 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4535CBD42004BA2200B3C0D0 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		269D6D6C2260957700A5C23D /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		269D6D6D2260957700A5C23D /* libbexbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbexbankcard.a; sourceTree = "<group>"; };
+		269D6D6E2260957700A5C23D /* libexbankcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexbankcardios.a; sourceTree = "<group>"; };
 		4535CBD62004BA2C00B3C0D0 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
 		4535CBD72004BA3800B3C0D0 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
 		4582D8321FFB324F00B85FC5 /* FBYBankCardRecognition-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FBYBankCardRecognition-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,9 +93,7 @@
 		4582D8E51FFDF81500B85FC5 /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
 		4582D8E61FFDF81500B85FC5 /* exbankcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
 		4582D8E81FFDF81500B85FC5 /* exbankcardcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
-		4582D8E91FFDF81500B85FC5 /* libbexbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbexbankcard.a; sourceTree = "<group>"; };
 		4582D8EB1FFDFAAE00B85FC5 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		4582D8F71FFDFFB000B85FC5 /* libexbankcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexbankcardios.a; sourceTree = "<group>"; };
 		4582D8FC1FFE049A00B85FC5 /* UIAlertController+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extend.h"; sourceTree = "<group>"; };
 		4582D8FD1FFE049A00B85FC5 /* UIAlertController+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extend.m"; sourceTree = "<group>"; };
 		4582D9021FFE0B4200B85FC5 /* FBYBankCardDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBYBankCardDetailViewController.h; sourceTree = "<group>"; };
@@ -109,9 +109,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				269D6D712260957700A5C23D /* libexbankcardios.a in Frameworks */,
 				804A9263F66FA2DC442A9D3D /* Pods_FBYBankCardRecognition_iOS.framework in Frameworks */,
-				4582D8EA1FFDF81500B85FC5 /* libbexbankcard.a in Frameworks */,
-				4582D8F81FFDFFB000B85FC5 /* libexbankcardios.a in Frameworks */,
+				269D6D702260957700A5C23D /* libbexbankcard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +253,9 @@
 		4582D8E71FFDF81500B85FC5 /* exbankcardcore */ = {
 			isa = PBXGroup;
 			children = (
-				4535CBD42004BA2200B3C0D0 /* zocr0.lib */,
-				4582D8F71FFDFFB000B85FC5 /* libexbankcardios.a */,
-				4582D8E91FFDF81500B85FC5 /* libbexbankcard.a */,
+				269D6D6D2260957700A5C23D /* libbexbankcard.a */,
+				269D6D6E2260957700A5C23D /* libexbankcardios.a */,
+				269D6D6C2260957700A5C23D /* zocr0.lib */,
 			);
 			path = exbankcardcore;
 			sourceTree = "<group>";
@@ -381,7 +381,7 @@
 				4582D9061FFE133400B85FC5 /* icon.png in Resources */,
 				4582D8421FFB324F00B85FC5 /* LaunchScreen.storyboard in Resources */,
 				4582D83F1FFB324F00B85FC5 /* Assets.xcassets in Resources */,
-				4535CBD52004BA2200B3C0D0 /* zocr0.lib in Resources */,
+				269D6D6F2260957700A5C23D /* zocr0.lib in Resources */,
 				4582D83D1FFB324F00B85FC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
