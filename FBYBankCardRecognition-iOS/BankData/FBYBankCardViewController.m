@@ -46,6 +46,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor clearColor];
     
     self.title = @"银行卡扫描";
 //#if TARGET_IPHONE_SIMULATOR

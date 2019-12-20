@@ -86,6 +86,8 @@ FBYBankCardViewController *bcvc = [[FBYBankCardViewController alloc]init];
 ```
 到此项目就接入完成！！！
 
+[同时支持身份证银行卡识别](https://github.com/fanbaoying/FBYCardRecognition-iOS)
+
 > 希望可以帮助大家，如有问题可加QQ群: 668562416 交流
 
 > 如果哪里有什么不对或者不足的地方，还望读者多多提意见或建议
